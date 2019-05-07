@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AlexDotKing/engine-balance
+          uri: https://github.com/AlexDotKing/engine-balance.git
           search-paths: remoteConfig
           username:
           password:

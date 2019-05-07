@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class CalculatorController {
 
-    @Value("${defaultBore:1 default}")
+    @Value("${defaultBore:1}")
     private String defaultBore;
 
-    @Value("${defaultStroke:1 default}")
+    @Value("${defaultStroke:1}")
     private String defaultStroke;
 
     @RequestMapping(value = "/getDefaultBoreAndStroke", method = RequestMethod.GET)
