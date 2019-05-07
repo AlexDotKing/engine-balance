@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: cylinder-movement-calculator
+  cloud:
+    config:
+      uri: http://localhost:8888
